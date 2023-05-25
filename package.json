@@ -16,12 +16,14 @@
     "@types/react-dom": "^18.0.11",
     "@types/web": "^0.0.99",
     "bun-types": "canary",
-    "typescript": "latest",
-    "react-refresh": "0.10.0"
+    "react-refresh": "0.10.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "latest"
   },
   "scripts": {
-    "dev": "bun --watch run dev.tsx"
+    "start": "bun dev",
+    "build": "react-scripts build"
   },
-  "module": "index.ts",
+  "module": "index.js",
   "type": "module"
 }
